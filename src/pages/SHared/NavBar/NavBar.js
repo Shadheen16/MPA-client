@@ -5,7 +5,7 @@ import logo from "../../../Images/logo.svg"
 const NavBar = () => {
     return (
         <div>
-            <div className="w-screen fixed flex items-center p-1 justify-between bg-white shadow-xs">
+            <div className="w-screen fixed flex items-center p-1 justify-between bg-white shadow-xs text-[16px]">
                 <div className="ml-8 hidden md:flex"><img className="w-24" src={logo} alt="" /></div>
                 <span className="w-screen md:w-1/3 h-10 bg-gray-200 cursor-pointer border border-gray-300 text-sm rounded-full flex">
                     <input type="search" name="serch" placeholder="Search"
