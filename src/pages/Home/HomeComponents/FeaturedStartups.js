@@ -1,9 +1,13 @@
 import { ArrowLeftIcon, ArrowRightIcon } from '@heroicons/react/solid';
 import React from 'react';
 import StartupCard from './StartupCard';
+import { StartupsData } from '../../../Data';
 
 
 const FeaturedStartups = () => {
+    const slicedStartupsData = StartupsData.slice(0,3);
+    console.log(slicedStartupsData);
+
     return (
         <div className="pt-10 md:pt-[100px] md:flex overflow-x-hidden">
             {/* left */}
@@ -23,9 +27,12 @@ const FeaturedStartups = () => {
                 </div>
                 {/* cards */}
                 <div className="flex space-x-8 overflow-x-scroll scrollbar-hide">
-                    <StartupCard/>
-                    <StartupCard/>
-                    <StartupCard/>
+                    {
+                        slicedStartupsData.map(data => <StartupCard
+                        key={data.id}
+                        data={data}
+                        />)
+                    }
                 </div>
                 {/* rigt arrow */}
                 <div className="hidden md:block mx-8 p-8 rounded-full border border-white/40 bg-white/20 cursor-pointer absolute md:right-0 xl:right-12">

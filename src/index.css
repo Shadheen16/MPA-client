@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+@layer components {
+    .leftbar-container {
+      @apply border-b py-8;
+    }
+    .leftbar-wrapper {
+        @apply mx-8 xl:mx-16;
+    }
+  }
