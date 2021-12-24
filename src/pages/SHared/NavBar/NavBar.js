@@ -1,6 +1,8 @@
 import { MenuIcon, SearchIcon } from '@heroicons/react/solid';
 import React from 'react';
+import { Link } from 'react-router-dom';
 import logo from "../../../Images/logo.svg"
+import { NavHashLink } from 'react-router-hash-link'
 
 const NavBar = () => {
     return (
@@ -18,13 +20,13 @@ const NavBar = () => {
                 <div className="mr-16 hidden md:flex flex-row-reverse">
                     <ul className="hidden flex-1 md:flex items-center justify-end space-x-[65px]">
                     <li className="cursor-pointer hover:translate-x-2 transition-all duration-300 ease-out ">
-                        HOME
+                        <Link to="/">HOME</Link>
                     </li >
                     <li className="cursor-pointer hover:translate-x-2 transition-all duration-300 ease-out ">
-                        INCUBATOR
+                      <Link to="/">Startup</Link>
                     </li>
                     <li className="cursor-pointer hover:translate-x-2 transition-all duration-300 ease-out ">
-                        LEARN
+                    <Link to="/learn">Learn</Link>
                     </li>
                 </ul>
                 </div>

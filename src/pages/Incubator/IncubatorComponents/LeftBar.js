@@ -6,12 +6,12 @@ const LeftBar = ({ data }) => {
     return (
         <div className=" ">
             {/* first block */}
-            <div className="leftbar-container">
-                <h1 className="text-[30px] font-bold leftbar-wrapper">{`Founded ${founded_on.day}th ${founded_on.month} ${founded_on.year}`}</h1>
+            <div className="box-container">
+                <h1 className="text-[30px] font-bold box-wrapper">{`Founded ${founded_on.day}th ${founded_on.month} ${founded_on.year}`}</h1>
             </div>
             {/* second block */}
-            <div className="leftbar-container">
-                <div className="leftbar-wrapper space-y-8">
+            <div className="box-container">
+                <div className="box-wrapper space-y-8">
                     <div>
                         <p>Website</p>
                         <div className='flex items-center gap-4'>
@@ -37,8 +37,8 @@ const LeftBar = ({ data }) => {
                 </div>
             </div>
             {/* third block */}
-            <div className="leftbar-container">
-                <div className="leftbar-wrapper">
+            <div className="box-container">
+                <div className="box-wrapper">
                     <h1 className='text-[30px] font-bold mb-10'>Meet the team</h1>
                     <div className='space-y-4'>
                         {
@@ -59,8 +59,8 @@ const LeftBar = ({ data }) => {
                 </div>
             </div>
             {/* last block */}
-            <div className="leftbar-container border-none">
-                <div className="leftbar-wrapper">
+            <div className="box-container border-none">
+                <div className="box-wrapper">
                     <h1 className="text-[30px] font-bold mb-10">Tags</h1>
                     {
                         tags.map(tag => <button

@@ -7,8 +7,13 @@ const CourseHeader = ({headerText}) => {
             <h1 className="text-[32px] lg:text-[48px] xl:text-[70px] whitespace-nowrap">{headerText}</h1>
             <div className="border border-white w-full"></div>
             <div className="flex items-center gap-8">
-                <ArrowLeftIcon className="w-10 h-10"/>
-                <ArrowRightIcon className="w-10 h-10"/>
+                <button >
+                     <ArrowLeftIcon className="w-10 h-10"/>
+                </button>
+                <button>
+                    <ArrowRightIcon className="w-10 h-10"/>
+                </button>
+               
             </div>
         </div>
     );

@@ -13,7 +13,7 @@ const Incubator = () => {
     let startup = StartupsData.filter(data => data.id === ID);
     return (
         <div className="bg-gradient-to-r from-clr-accent/80 to-clr-secondary/80 px-5 md:px-10 lg:px-[100px] xl:px-[200px] pt-20 lg:pt-32 pb-16" >
-            <div className="lg:grid lg:grid-cols-12 lg:grid-rows-12 gap-6">
+            <div className="grid  lg:grid-cols-12 lg:grid-rows-12 gap-6">
                 <div className="bg-white col-span-12  rounded-t-[20px]">
                     <TopBar
                         data={startup} />

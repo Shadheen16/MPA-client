@@ -403,48 +403,48 @@ export const StartupsData = [
         "id":1,
         "title":"Intro to Blockchain",
         "subtitle":"Blockchain, Cryptocurrency Fundamentals",
-        "total_module":10,
-        "completed_module":8.3,
+        "total_modules":10,
+        "completed_modules":8.3,
         "earn":30
     },
     {
         "id":2,
         "title":"Intro to Blockchain",
         "subtitle":"Blockchain, Cryptocurrency Fundamentals",
-        "total_module":10,
-        "completed_module":8.3,
+        "total_modules":10,
+        "completed_modules":8.3,
         "earn":30
     },
     {
         "id":3,
         "title":"Intro to Blockchain",
         "subtitle":"Blockchain, Cryptocurrency Fundamentals",
-        "total_module":10,
-        "completed_module":8.3,
+        "total_modules":10,
+        "completed_modules":8.3,
         "earn":30
     },
     {
         "id":4,
         "title":"Intro to Blockchain",
         "subtitle":"Blockchain, Cryptocurrency Fundamentals",
-        "total_module":10,
-        "completed_module":8.3,
+        "total_modules":10,
+        "completed_modules":8.3,
         "earn":30
     },
     {
         "id":5,
         "title":"Intro to Blockchain",
         "subtitle":"Blockchain, Cryptocurrency Fundamentals",
-        "total_module":10,
-        "completed_module":8.3,
+        "total_modules":10,
+        "completed_modules":8.3,
         "earn":30
     },
     {
         "id":6,
         "title":"Intro to Blockchain",
         "subtitle":"Blockchain, Cryptocurrency Fundamentals",
-        "total_module":10,
-        "completed_module":8.3,
+        "total_modules":10,
+        "completed_modules":8.3,
         "earn":30
     },
 

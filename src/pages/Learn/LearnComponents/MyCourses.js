@@ -4,13 +4,15 @@ import CourseCard from './CourseCard';
 import CourseHeader from './CourseHeader';
 
 
-const MyCourses = () => {
+const MyCourses = ({handleScroll}) => {
+    console.log(CourseData);
     return (
         <div>
             <CourseHeader
                 headerText="My Courses"
+                handleScroll={handleScroll}
             />
-            <div className="flex overflow-x-scroll">
+            <div id="my-courses" className="flex overflow-x-scroll scrollbar-hide">
                    {
                 CourseData.map(data => <CourseCard
                     key={data.id}
